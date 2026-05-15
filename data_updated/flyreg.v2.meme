@@ -7,7 +7,7 @@ strands: + -
 Background letter frequencies (from uniform background):
 A 0.25000 C 0.25000 G 0.25000 T 0.25000 
 
-MOTIF idmmpmm2009.meme_FBgn0000014_abd-A_773
+MOTIF flyreg.v2.meme_FBgn0000014_abd-A_698
 
 letter-probability matrix: alength= 4 w= 8 nsites= 37 E= 0
   0.135135	  0.054054	  0.351351	  0.459459	
@@ -21,7 +21,7 @@ letter-probability matrix: alength= 4 w= 8 nsites= 37 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/abd-A.info
 
-MOTIF idmmpmm2009.meme_FBgn0000015_Abd-B_774
+MOTIF flyreg.v2.meme_FBgn0000015_Abd-B_699
 
 letter-probability matrix: alength= 4 w= 8 nsites= 7 E= 0
   0.142857	  0.285714	  0.000000	  0.571429	
@@ -63,7 +63,7 @@ letter-probability matrix: alength= 4 w= 8 nsites= 3 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/Aef1.info
 
-MOTIF idmmpmm2009.meme_FBgn0260642_Antp_775
+MOTIF flyreg.v2.meme_FBgn0260642_Antp_702
 
 letter-probability matrix: alength= 4 w= 6 nsites= 12 E= 0
   0.666667	  0.000000	  0.000000	  0.333333	
@@ -99,7 +99,7 @@ letter-probability matrix: alength= 4 w= 6 nsites= 2 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/ara.info
 
-MOTIF idmmpmm2009.meme_FBgn0004870_bab1_776
+MOTIF flyreg.v2.meme_FBgn0004870_bab1_705
 
 letter-probability matrix: alength= 4 w= 10 nsites= 6 E= 0
   0.166667	  0.000000	  0.000000	  0.833333	
@@ -115,7 +115,7 @@ letter-probability matrix: alength= 4 w= 10 nsites= 6 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/bab1.info
 
-MOTIF idmmpmm2009.meme_FBgn0000166_bcd_777
+MOTIF flyreg.v2.meme_FBgn0000166_bcd_706
 
 letter-probability matrix: alength= 4 w= 8 nsites= 48 E= 0
   0.187500	  0.375000	  0.062500	  0.375000	
@@ -227,7 +227,7 @@ letter-probability matrix: alength= 4 w= 6 nsites= 8 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/br-Z4.info
 
-MOTIF idmmpmm2009.meme_FBgn0024250_brk_778
+MOTIF flyreg.v2.meme_FBgn0024250_brk_709
 
 letter-probability matrix: alength= 4 w= 8 nsites= 10 E= 0
   0.100000	  0.500000	  0.400000	  0.000000	
@@ -255,7 +255,7 @@ letter-probability matrix: alength= 4 w= 8 nsites= 9 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/byn.info
 
-MOTIF idmmpmm2009.meme_FBgn0000251_cad_779
+MOTIF flyreg.v2.meme_FBgn0000251_cad_711
 
 letter-probability matrix: alength= 4 w= 9 nsites= 13 E= 0
   0.000000	  0.384615	  0.230769	  0.384615	
@@ -296,7 +296,7 @@ letter-probability matrix: alength= 4 w= 6 nsites= 10 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/Deaf1.info
 
-MOTIF idmmpmm2009.meme_FBgn0000439_Dfd_780
+MOTIF flyreg.v2.meme_FBgn0000439_Dfd_713
 
 letter-probability matrix: alength= 4 w= 8 nsites= 16 E= 0
   0.062500	  0.125000	  0.125000	  0.687500	
@@ -310,7 +310,7 @@ letter-probability matrix: alength= 4 w= 8 nsites= 16 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/Dfd.info
 
-MOTIF idmmpmm2009.meme_FBgn0260632_dl_781
+MOTIF flyreg.v2.meme_FBgn0260632_dl_714
 
 letter-probability matrix: alength= 4 w= 10 nsites= 38 E= 0
   0.052632	  0.210526	  0.578947	  0.157895	
@@ -384,7 +384,7 @@ letter-probability matrix: alength= 4 w= 14 nsites= 3 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/dsx-M.info
 
-MOTIF idmmpmm2009.meme_FBgn0000567_Eip74EF_783
+MOTIF flyreg.v2.meme_FBgn0000567_Eip74EF_716
 
 letter-probability matrix: alength= 4 w= 10 nsites= 8 E= 0
   0.750000	  0.000000	  0.125000	  0.125000	
@@ -400,7 +400,7 @@ letter-probability matrix: alength= 4 w= 10 nsites= 8 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/Eip74EF.info
 
-MOTIF idmmpmm2009.meme_FBgn0000576_ems_784
+MOTIF flyreg.v2.meme_FBgn0000576_ems_717
 
 letter-probability matrix: alength= 4 w= 8 nsites= 3 E= 0
   0.000000	  0.000000	  0.333333	  0.666667	
@@ -414,7 +414,7 @@ letter-probability matrix: alength= 4 w= 8 nsites= 3 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/ems.info
 
-MOTIF idmmpmm2009.meme_FBgn0000577_en_785
+MOTIF flyreg.v2.meme_FBgn0000577_en_718
 
 letter-probability matrix: alength= 4 w= 8 nsites= 53 E= 0
   0.377358	  0.056604	  0.339623	  0.226415	
@@ -446,7 +446,7 @@ letter-probability matrix: alength= 4 w= 12 nsites= 4 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/Espl.info
 
-MOTIF idmmpmm2009.meme_FBgn0000606_eve_786
+MOTIF flyreg.v2.meme_FBgn0000606_eve_719
 
 letter-probability matrix: alength= 4 w= 12 nsites= 19 E= 0
   0.315789	  0.421053	  0.000000	  0.263158	
@@ -528,7 +528,7 @@ letter-probability matrix: alength= 4 w= 18 nsites= 3 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/ftz-f1.info
 
-MOTIF idmmpmm2009.meme_FBgn0001077_ftz_788
+MOTIF flyreg.v2.meme_FBgn0001077_ftz_723
 
 letter-probability matrix: alength= 4 w= 8 nsites= 66 E= 0
   0.287879	  0.060606	  0.469697	  0.181818	
@@ -612,7 +612,7 @@ letter-probability matrix: alength= 4 w= 12 nsites= 2 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/gsb.info
 
-MOTIF idmmpmm2009.meme_FBgn0001150_gt_789
+MOTIF flyreg.v2.meme_FBgn0001150_gt_728
 
 letter-probability matrix: alength= 4 w= 12 nsites= 8 E= 0
   0.375000	  0.000000	  0.000000	  0.625000	
@@ -630,7 +630,7 @@ letter-probability matrix: alength= 4 w= 12 nsites= 8 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/gt.info
 
-MOTIF idmmpmm2009.meme_FBgn0001180_hb_790
+MOTIF flyreg.v2.meme_FBgn0001180_hb_729
 
 letter-probability matrix: alength= 4 w= 8 nsites= 103 E= 0
   0.165049	  0.126214	  0.067961	  0.640777	
@@ -668,7 +668,7 @@ letter-probability matrix: alength= 4 w= 18 nsites= 5 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/His2B.info
 
-MOTIF idmmpmm2009.meme_FBgn0261434_hkb_791
+MOTIF flyreg.v2.meme_FBgn0261434_hkb_731
 
 letter-probability matrix: alength= 4 w= 14 nsites= 2 E= 0
   0.000000	  0.000000	  0.000000	  1.000000	
@@ -740,7 +740,7 @@ letter-probability matrix: alength= 4 w= 14 nsites= 5 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/Hsf.info
 
-MOTIF idmmpmm2009.meme_FBgn0001320_kni_792
+MOTIF flyreg.v2.meme_FBgn0001320_kni_733
 
 letter-probability matrix: alength= 4 w= 10 nsites= 20 E= 0
   0.050000	  0.050000	  0.900000	  0.000000	
@@ -756,7 +756,7 @@ letter-probability matrix: alength= 4 w= 10 nsites= 20 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/kni.info
 
-MOTIF idmmpmm2009.meme_FBgn0001325_Kr_793
+MOTIF flyreg.v2.meme_FBgn0001325_Kr_734
 
 letter-probability matrix: alength= 4 w= 10 nsites= 44 E= 0
   0.840909	  0.000000	  0.090909	  0.068182	
@@ -772,7 +772,7 @@ letter-probability matrix: alength= 4 w= 10 nsites= 44 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/Kr.info
 
-MOTIF idmmpmm2009.meme_FBgn0011648_Mad_794
+MOTIF flyreg.v2.meme_FBgn0011648_Mad_735
 
 letter-probability matrix: alength= 4 w= 10 nsites= 20 E= 0
   0.050000	  0.600000	  0.250000	  0.100000	
@@ -788,7 +788,7 @@ letter-probability matrix: alength= 4 w= 10 nsites= 20 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/Mad.info
 
-MOTIF idmmpmm2009.meme_FBgn0288966_Med_795
+MOTIF flyreg.v2.meme_FBgn0288966_Med_736
 
 letter-probability matrix: alength= 4 w= 12 nsites= 8 E= 0
   0.000000	  0.125000	  0.625000	  0.250000	
@@ -806,7 +806,7 @@ letter-probability matrix: alength= 4 w= 12 nsites= 8 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/Med.info
 
-MOTIF idmmpmm2009.meme_FBgn0085424_nub_796
+MOTIF flyreg.v2.meme_FBgn0085424_nub_737
 
 letter-probability matrix: alength= 4 w= 10 nsites= 4 E= 0
   0.250000	  0.000000	  0.000000	  0.750000	
@@ -822,7 +822,7 @@ letter-probability matrix: alength= 4 w= 10 nsites= 4 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/nub.info
 
-MOTIF idmmpmm2009.meme_FBgn0003028_ovo_798
+MOTIF flyreg.v2.meme_FBgn0003028_ovo_738
 
 letter-probability matrix: alength= 4 w= 8 nsites= 12 E= 0
   0.000000	  1.000000	  0.000000	  0.000000	
@@ -888,7 +888,7 @@ letter-probability matrix: alength= 4 w= 14 nsites= 5 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/pho.info
 
-MOTIF idmmpmm2009.meme_FBgn0003145_prd_799
+MOTIF flyreg.v2.meme_FBgn0003145_prd_741
 
 letter-probability matrix: alength= 4 w= 8 nsites= 11 E= 0
   0.181818	  0.818182	  0.000000	  0.000000	
@@ -920,7 +920,7 @@ letter-probability matrix: alength= 4 w= 12 nsites= 14 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/sd.info
 
-MOTIF idmmpmm2009.meme_FBgn0003396_shn_800
+MOTIF flyreg.v2.meme_FBgn0003396_shn_743
 
 letter-probability matrix: alength= 4 w= 14 nsites= 2 E= 0
   0.500000	  0.000000	  0.000000	  0.500000	
@@ -954,7 +954,7 @@ letter-probability matrix: alength= 4 w= 8 nsites= 12 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/slbo.info
 
-MOTIF idmmpmm2009.meme_FBgn0003448_sna_802
+MOTIF flyreg.v2.meme_FBgn0003448_sna_745
 
 letter-probability matrix: alength= 4 w= 10 nsites= 11 E= 0
   0.000000	  0.636364	  0.272727	  0.090909	
@@ -970,7 +970,7 @@ letter-probability matrix: alength= 4 w= 10 nsites= 11 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/sna.info
 
-MOTIF idmmpmm2009.meme_FBgn0003507_srp_803
+MOTIF flyreg.v2.meme_FBgn0003507_srp_746
 
 letter-probability matrix: alength= 4 w= 12 nsites= 4 E= 0
   0.000000	  0.500000	  0.250000	  0.250000	
@@ -1050,7 +1050,7 @@ letter-probability matrix: alength= 4 w= 12 nsites= 11 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/tin.info
 
-MOTIF idmmpmm2009.meme_FBgn0003720_tll_804
+MOTIF flyreg.v2.meme_FBgn0003720_tll_748
 
 letter-probability matrix: alength= 4 w= 7 nsites= 37 E= 0
   0.675676	  0.054054	  0.162162	  0.108108	
@@ -1117,7 +1117,7 @@ letter-probability matrix: alength= 4 w= 10 nsites= 71 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/Trl.info
 
-MOTIF idmmpmm2009.meme_FBgn0003870_ttk_805
+MOTIF flyreg.v2.meme_FBgn0003870_ttk_752
 
 letter-probability matrix: alength= 4 w= 12 nsites= 7 E= 0
   0.285714	  0.142857	  0.571429	  0.000000	
@@ -1135,7 +1135,7 @@ letter-probability matrix: alength= 4 w= 12 nsites= 7 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/ttk.info
 
-MOTIF idmmpmm2009.meme_FBgn0003900_twi_806
+MOTIF flyreg.v2.meme_FBgn0003900_twi_753
 
 letter-probability matrix: alength= 4 w= 12 nsites= 15 E= 0
   0.066667	  0.266667	  0.200000	  0.466667	
@@ -1153,7 +1153,7 @@ letter-probability matrix: alength= 4 w= 12 nsites= 15 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/twi.info
 
-MOTIF idmmpmm2009.meme_FBgn0003944_Ubx_807
+MOTIF flyreg.v2.meme_FBgn0003944_Ubx_754
 
 letter-probability matrix: alength= 4 w= 6 nsites= 56 E= 0
   0.232143	  0.464286	  0.089286	  0.214286	
@@ -1165,7 +1165,7 @@ letter-probability matrix: alength= 4 w= 6 nsites= 56 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/Ubx.info
 
-MOTIF idmmpmm2009.meme_FBgn0261930_vnd_809
+MOTIF flyreg.v2.meme_FBgn0261930_vnd_755
 
 letter-probability matrix: alength= 4 w= 10 nsites= 3 E= 0
   0.333333	  0.000000	  0.666667	  0.000000	
@@ -1193,7 +1193,7 @@ letter-probability matrix: alength= 4 w= 6 nsites= 11 E= 0
 
 URL http://www.danielpollard.com/matrices/bergman2004/matrices/vvl.info
 
-MOTIF idmmpmm2009.meme_FBgn0004050_z_810
+MOTIF flyreg.v2.meme_FBgn0004050_z_757
 
 letter-probability matrix: alength= 4 w= 10 nsites= 41 E= 0
   0.268293	  0.073171	  0.121951	  0.536585	
