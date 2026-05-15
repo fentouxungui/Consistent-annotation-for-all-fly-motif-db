@@ -85,6 +85,8 @@ networks
 
 ## Results
 
+### Motif IDs maping file
+
 All motif IDs from the databases have been linked to their latest FBgn
 and Symbol in FlyBase. See
 `Consistent-annotation-for-all-fly-motif-database.csv`.
@@ -332,6 +334,23 @@ sort(table(df$Symbol),decreasing = TRUE)
 #>                1                1
 ```
 
+### Updated meme files with new MOTIF name
+
+new MOTIF name: `database name` + `FBgn ID` + `Gene Symbol`, separated
+by underscore.
+
+    $ grep 'MOTIF' dmmpmm2009.meme |head -n 10
+    MOTIF idmmpmm2009.meme_FBgn0000014_abd-A
+    MOTIF idmmpmm2009.meme_FBgn0260642_Antp
+    MOTIF flyreg.v2.meme_FBgn0267978_ap
+    MOTIF idmmpmm2009.meme_FBgn0000166_bcd
+    MOTIF idmmpmm2009.meme_FBgn0024250_brk
+    MOTIF flyreg.v2.meme_FBgn0283451_br
+    MOTIF flyreg.v2.meme_FBgn0283451_br
+    MOTIF flyreg.v2.meme_FBgn0283451_br
+    MOTIF flyreg.v2.meme_FBgn0283451_br
+    MOTIF flyreg.v2.meme_FBgn0011723_byn
+
 ## Code and Files Used
 
 **Files:**
@@ -347,6 +366,9 @@ latest FBgn and Symbol mappings.
   database
 
 - `2_merge-all.R` — merges all results
+
+- `3_update-motif-names-in-meme-files.py` - update motif names in meme
+  files
 
 ## Acknowledgments
 
