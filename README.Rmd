@@ -129,20 +129,22 @@ sort(table(df$Symbol),decreasing = TRUE)
 
 ### Updated meme files with new MOTIF name
 
-new MOTIF name: ``database name`` + ``FBgn ID`` + ``Gene Symbol``, separated by underscore.
+new MOTIF name: ``database name`` + ``FBgn ID`` + ``Gene Symbol`` + ``Row number``, separated by underscore.
+
+Row number: the row number in ``Consistent-annotation-for-all-fly-motif-database.csv`` file, included to avoid duplicated motif names.
 
 ```
 $ grep 'MOTIF' dmmpmm2009.meme |head -n 10
-MOTIF idmmpmm2009.meme_FBgn0000014_abd-A
-MOTIF idmmpmm2009.meme_FBgn0260642_Antp
-MOTIF flyreg.v2.meme_FBgn0267978_ap
-MOTIF idmmpmm2009.meme_FBgn0000166_bcd
-MOTIF idmmpmm2009.meme_FBgn0024250_brk
-MOTIF flyreg.v2.meme_FBgn0283451_br
-MOTIF flyreg.v2.meme_FBgn0283451_br
-MOTIF flyreg.v2.meme_FBgn0283451_br
-MOTIF flyreg.v2.meme_FBgn0283451_br
-MOTIF flyreg.v2.meme_FBgn0011723_byn
+MOTIF idmmpmm2009.meme_FBgn0000014_abd-A_773
+MOTIF idmmpmm2009.meme_FBgn0260642_Antp_775
+MOTIF flyreg.v2.meme_FBgn0267978_ap_703
+MOTIF idmmpmm2009.meme_FBgn0000166_bcd_777
+MOTIF idmmpmm2009.meme_FBgn0024250_brk_778
+MOTIF flyreg.v2.meme_FBgn0283451_br_760
+MOTIF flyreg.v2.meme_FBgn0283451_br_761
+MOTIF flyreg.v2.meme_FBgn0283451_br_762
+MOTIF flyreg.v2.meme_FBgn0283451_br_763
+MOTIF flyreg.v2.meme_FBgn0011723_byn_710
 ```
 
 ## Code and Files Used

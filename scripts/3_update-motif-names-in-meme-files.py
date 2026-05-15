@@ -13,6 +13,7 @@ OUTPUT_DIR = '../data_updated' # 输出目录（自动创建）
 raw_to_combined = {}
 with open(CSV_MAPPING, 'r', encoding='utf-8') as f:
     reader = csv.DictReader(f)
+    fake_count = 1
     for row in reader:
         source = row['source'].strip()
         fbgn = row['FBgn'].strip()
@@ -23,8 +24,9 @@ with open(CSV_MAPPING, 'r', encoding='utf-8') as f:
             motif_id = raw[6:].strip()
         else:
             motif_id = raw
-        combined = f"{source}_{fbgn}_{symbol}"
+        combined = f"{source}_{fbgn}_{symbol}_{fake_count}"
         raw_to_combined[motif_id] = combined
+        fake_count+=1
 
 print(f"已加载 {len(raw_to_combined)} 个 motif 映射", file=sys.stderr)
 print("示例映射键（前5个）:", list(raw_to_combined.keys())[:5], file=sys.stderr)
