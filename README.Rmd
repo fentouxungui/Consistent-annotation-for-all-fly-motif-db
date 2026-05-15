@@ -2,8 +2,8 @@
 output: github_document
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-<!-- To generate README.md for GitHub homepage: copy this file to the package root directory, set for_github parameter to TRUE, then knit. Delete the README.Rmd file from the root directory after completion -->
+<!-- README.md is generated from README.Rmd. Please edit that file. -->
+<!-- To generate README.md for GitHub homepage: copy this file to the package root directory, set for_github parameter to TRUE, then knit. Delete the README.Rmd file from the root directory after completion. -->
 
 
 ```{r, include = FALSE}
@@ -17,11 +17,11 @@ knitr::opts_chunk$set(
 ```
 
 
-# Consistent annotations for all fly motif database from MEME Suite
+# Consistent annotations for all fly motif databases from MEME Suite
 
 ## Problem
 
-[MEME Suite](https://meme-suite.org/meme/doc/download.html) provided 5 motif database for drosophila, but each database has it's unique motif id naming, which makes it hard to related it to the gene name and make a comparision between database.
+The [MEME Suite](https://meme-suite.org/meme/doc/download.html) provides 5 motif databases for Drosophila, but each database has its own unique motif ID naming convention. This makes it difficult to relate motifs to gene names and to make comparisons between databases.
 
 
 ```
@@ -73,19 +73,43 @@ MOTIF bab1
 MOTIF bcd
 ```
 
+## Why This Matters
+
+Cross-database motif analysis is essential for understanding transcriptional regulation in *Drosophila*, but has been hindered by inconsistent naming conventions. This project addresses three critical challenges:
+
+**1. Data Integration**
+Different databases use completely different identification systems:
+- `OnTheFly` uses internal OTF IDs with UniProt names and experimental methods (e.g., `OTF0001.1 7UP1_DROME_B1H`)
+- `dmmpmm2009` and `flyreg.v2` use gene symbols directly (e.g., `abd-A`, `br-Z1`)
+- `fly_factor_survey` combines FlyBase IDs with experimental metadata (e.g., `FBgn0000014_2 Abd-A_FlyReg`)
+
+**2. Annotation Consistency**
+The pipeline standardizes all motif entries using:
+- Official FlyBase synonym mappings (`fb_synonym_fb_2026_01.tsv.gz`)
+- Automated resolution of isoform variants (e.g., `br-Z1/Z2/Z3/Z4` → `br`)
+- Updates to deprecated FBgn IDs via FlyBase conversion API
+- Manual curation for ambiguous cases
+
+**3. Cross-Database Analysis**
+The unified annotation enables researchers to:
+- Compare motif characteristics across multiple experimental datasets
+- Identify overlapping and unique transcription factors across databases
+- Conduct meta-analyses combining data from different sources
+- Build comprehensive transcription factor regulatory networks
+
 ## Results
 
-all ids from motif database has been related to it's latest FBgn and Symbol in Flybase. see ``Consistent-annotation-for-all-fly-motif-database.csv``
+All motif IDs from the databases have been linked to their latest FBgn and Symbol in FlyBase. See `Consistent-annotation-for-all-fly-motif-database.csv`.
 
-- source： database
+- `source`: database name
 
-- raw： raw motif entry
+- `raw`: raw motif entry
 
-- FBgn: latest FBgn ID
+- `FBgn`: latest FBgn ID
 
-- Symbol: latest gene symbol
+- `Symbol`: latest gene symbol
 
-And total 334 TFs with motifs are stored in all database. Is all these 334 genes are TFs?
+A total of 334 TFs with motifs are stored across all databases. Are all these 334 genes truly TFs?
 
 ```{r}
 df <- read.csv('./Consistent-annotation-for-all-fly-motif-database.csv',stringsAsFactors = FALSE,row.names = 1)
@@ -102,21 +126,21 @@ sort(table(df$Symbol),decreasing = TRUE)
 ```
 
 
-## codes and files used
+## Code and Files Used
 
-**files:**
+**Files:**
 
-``fb_synonym_fb_2026_01.tsv.gz`` downloaded from flybase which stores the latest FBgn and Symbol.
+`fb_synonym_fb_2026_01.tsv.gz` — downloaded from FlyBase, containing the latest FBgn and Symbol mappings.
 
-**codes:**
+**Code:**
 
-- 0_extract-motif-names.sh
+- `0_extract-motif-names.sh` — extracts motif names from databases
 
-- 1_Standardize-gene-names.R: update genes info for each database
+- `1_Standardize-gene-names.R` — updates gene information for each database
 
-- 2_merge-all.R: merge all results
+- `2_merge-all.R` — merges all results
 
-## Thanks
+## Acknowledgments
 
-Thanks to Claude code for generating the web crawler scripts.
+Thanks to Claude Code for generating the web crawler scripts.
 
