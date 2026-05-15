@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -X POST \"https://bhapp.c2b2.columbia.edu/OnTheFly/cgi-bin/TF_search.php\" -d \"keyword=ANTP\" -d \"submit=Search\")",
+      "Bash(curl -s -X POST \"https://bhapp.c2b2.columbia.edu/OnTheFly/cgi-bin/TF_search.php\" -d \"keyword_search=ANTP&submitted=yes\")",
+      "Bash(pip list *)",
+      "Bash(pip install *)",
+      "Bash(python onthefly_spider.py)",
+      "Bash(python -c ' *)"
+    ]
+  }
+}
