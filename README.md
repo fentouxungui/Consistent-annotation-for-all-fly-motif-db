@@ -162,194 +162,36 @@ table(df$source)
 #>                           608
 length(unique(df$FBgn))
 #> [1] 334
-sort(table(df$Symbol),decreasing = TRUE)
+head(sort(table(df$Symbol),decreasing = TRUE),30)
 #> 
-#>             lola               br              bcd              ovo 
-#>               31               28               18               18 
-#>              Ubx             Antp              ttk              lbl 
-#>               18               16               15               14 
-#>            Abd-B              Hsf          Eip74EF               ap 
-#>               13               13               12               11 
-#>              ara              Cf2               ey              grh 
-#>               11               11               11               11 
-#>              hth              Med              prd              shn 
-#>               11               11               11               11 
-#>            abd-A              eve               gt               hb 
-#>               10               10               10               10 
-#>               Kr              cad              ems               en 
-#>               10                9                9                9 
-#>              nub              sna              srp              tgo 
-#>                9                9                9                9 
-#>              tin              Trl              twi              vnd 
-#>                9                9                9                9 
-#>              bin              Dfd               dl              ftz 
-#>                8                8                8                8 
-#>            HLH4C              Hr3              kni              pan 
-#>                8                8                8                8 
-#>               sd              ato             bab1              brk 
-#>                8                7                7                7 
-#>     E(spl)m5-HLH              exd              lbe              Oli 
-#>                7                7                7                7 
-#>              tll              zen               ab             Adf1 
-#>                7                7                6                6 
-#>             Aef1              C15           CG4328               ct 
-#>                6                6                6                6 
-#>             Dref              dsx              fkh           ftz-f1 
-#>                6                6                6                6 
-#>               gl             Lim3              lms               pb 
-#>                6                6                6                6 
-#>              pho             Ptx1             slbo              tup 
-#>                6                6                6                6 
-#>              vvl                z              bsh              byn 
-#>                6                6                5                5 
-#>          CG12236              Clk            Deaf1              Dll 
-#>                5                5                5                5 
-#>     E(spl)m8-HLH              Gsc             HGTX              hkb 
-#>                5                5                5                5 
-#>              Mad              nau            NK7.1               oc 
-#>                5                5                5                5 
-#>              odd           onecut              otp             PHDP 
-#>                5                5                5                5 
-#>            Pph13             slp1            SREBP              tap 
-#>                5                5                5                5 
-#>             Vsx2             zen2              Awh          BEAF-32 
-#>                5                5                4                4 
-#>          Blimp-1              btn             cato          CG15696 
-#>                4                4                4                4 
-#>          CG18599           CG3065           CG9876               da 
-#>                4                4                4                4 
-#>              Dbx             Fer1              fru              hbn 
-#>                4                4                4                4 
-#>             HHEX              Hmx              hry              ind 
-#>                4                4                4                4 
-#>              inv              lab             Lim1             mirr 
-#>                4                4                4                4 
-#>             OdsH              opa            Optix              peb 
-#>                4                4                4                4 
-#>             repo             scrt             Six4               so 
-#>                4                4                4                4 
-#>              tai              toy              vis             Vsx1 
-#>                4                4                4                4 
-#>               ac             achi               al             amos 
-#>                3                3                3                3 
-#>              ase             B-H1             B-H2              bap 
-#>                3                3                3                3 
-#>             bowl              btd             caup          CG11085 
-#>                3                3                3                3 
-#>          CG11294          CG11617          CG32532          CG34031 
-#>                3                3                3                3 
-#>           CG3407          CG42741           CG4854           CG7368 
-#>                3                3                3                3 
-#>           CG8319               ci          CR43669             crol 
-#>                3                3                3                3 
-#>              cyc                D             D19A             D19B 
-#>                3                3                3                3 
-#>             dar1             dati             dimm            disco 
-#>                3                3                3                3 
-#>          disco-r               Dr E(spl)mgamma-HLH               E5 
-#>                3                3                3                3 
-#>              erm              esg             exex             Fer2 
-#>                3                3                3                3 
-#>             Fer3              gsb             H2.0             Hand 
-#>                3                3                3                3 
-#>              her           HLH54F             Hnf4             hng1 
-#>                3                3                3                3 
-#>           Irbp18              jim              Kah              ken 
-#>                3                3                3                3 
-#>              klu           l(1)sc        l(3)neo38              lmd 
-#>                3                3                3                3 
-#>            Lmx1a             luna             mamo              Max 
-#>                3                3                3                3 
-#>              Met              net              pad             phol 
-#>                3                3                3                3 
-#>              pnt               rn               ro               Rx 
-#>                3                3                3                3 
-#>             Sag1             sage               sc          schlank 
-#>                3                3                3                3 
-#>              Scr           scrape             sens           sens-2 
-#>                3                3                3                3 
-#>             slou            Sox14              Sp1             Spps 
-#>                3                3                3                3 
-#>              sqz               ss            Su(H)           su(Hw) 
-#>                3                3                3                3 
-#>              sug            unc-4             unpg              usp 
-#>                3                3                3                3 
-#>              wor              Zif            ZIPIC              zld 
-#>                3                3                3                3 
-#>              aop            Asciz             Atf6           bigmax 
-#>                2                2                2                2 
-#>             brwl           BtbVII          CG15812           CG3919 
-#>                2                2                2                2 
-#>           CG4404           CG5953           CG6276           CG8765 
-#>                2                2                2                2 
-#>              cic             Coop              crc            CrebA 
-#>                2                2                2                2 
-#>              crp              cwo            Dlip3             Doc2 
-#>                2                2                2                2 
-#>              dpn              dsf             dysf     E(spl)m3-HLH 
-#>                2                2                2                2 
-#>     E(spl)m7-HLH  E(spl)mbeta-HLH E(spl)mdelta-HLH              EcR 
-#>                2                2                2                2 
-#>               eg           Eip75B           Eip78C           Eip93F 
-#>                2                2                2                2 
-#>              ERR           Ets21C           Ets65A           Ets96B 
-#>                2                2                2                2 
-#>           Ets97D           Ets98B            FoxL1             foxo 
-#>                2                2                2                2 
-#>             FoxP            GATAd            GATAe            gsb-n 
-#>                2                2                2                2 
-#>             Hesr              Hey             hng3              Hr4 
-#>                2                2                2                2 
-#>             Hr51             Hr78             Hr83              Jra 
-#>                2                2                2                2 
-#>              kay            Klf15             knrl              lov 
-#>                2                2                2                2 
-#>             Mitf            Mondo              Myc             NFAT 
-#>                2                2                2                2 
-#>              pnr              Rel             retn              rib 
-#>                2                2                2                2 
-#>              run            Sidpn             sima             slp2 
-#>                2                2                2                2 
-#>              sob             soul            Sox15               sr 
-#>                2                2                2                2 
-#>              svp               tj               tx              Usf 
-#>                2                2                2                2 
-#>              vri             Xrp1             acj6            Atf-2 
-#>                2                2                1                1 
-#>              Bgb          CG10904          CG12155          CG12768 
-#>                1                1                1                1 
-#>          CG15601          CG44247           CG5180           CG7386 
-#>                1                1                1                1 
-#>           CG7745           CG8281           chinmo             croc 
-#>                1                1                1                1 
-#>              gce            His2B             Hr39            jigr1 
-#>                1                1                1                1 
-#>             Mes2           mip120              Mnt          p120ctn 
-#>                1                1                1                1 
-#>             pdm2             pdm3             Poxm             Poxn 
-#>                1                1                1                1 
-#>             salr              sim               sv             Top2 
-#>                1                1                1                1 
-#>              trh           Vostok 
-#>                1                1
+#>    lola      br     bcd     ovo     Ubx    Antp     ttk     lbl   Abd-B     Hsf 
+#>      31      28      18      18      18      16      15      14      13      13 
+#> Eip74EF      ap     ara     Cf2      ey     grh     hth     Med     prd     shn 
+#>      12      11      11      11      11      11      11      11      11      11 
+#>   abd-A     eve      gt      hb      Kr     cad     ems      en     nub     sna 
+#>      10      10      10      10      10       9       9       9       9       9
 ```
 
 ### Updated meme files with new MOTIF name
 
-new MOTIF name: `database name` + `FBgn ID` + `Gene Symbol`, separated
-by underscore.
+new MOTIF name: `database name` + `FBgn ID` + `Gene Symbol` +
+`Row number`, separated by underscore.
+
+Row number: the row number in
+`Consistent-annotation-for-all-fly-motif-database.csv` file, included to
+avoid duplicated motif names.
 
     $ grep 'MOTIF' dmmpmm2009.meme |head -n 10
-    MOTIF idmmpmm2009.meme_FBgn0000014_abd-A
-    MOTIF idmmpmm2009.meme_FBgn0260642_Antp
-    MOTIF flyreg.v2.meme_FBgn0267978_ap
-    MOTIF idmmpmm2009.meme_FBgn0000166_bcd
-    MOTIF idmmpmm2009.meme_FBgn0024250_brk
-    MOTIF flyreg.v2.meme_FBgn0283451_br
-    MOTIF flyreg.v2.meme_FBgn0283451_br
-    MOTIF flyreg.v2.meme_FBgn0283451_br
-    MOTIF flyreg.v2.meme_FBgn0283451_br
-    MOTIF flyreg.v2.meme_FBgn0011723_byn
+    MOTIF idmmpmm2009.meme_FBgn0000014_abd-A_773
+    MOTIF idmmpmm2009.meme_FBgn0260642_Antp_775
+    MOTIF flyreg.v2.meme_FBgn0267978_ap_703
+    MOTIF idmmpmm2009.meme_FBgn0000166_bcd_777
+    MOTIF idmmpmm2009.meme_FBgn0024250_brk_778
+    MOTIF flyreg.v2.meme_FBgn0283451_br_760
+    MOTIF flyreg.v2.meme_FBgn0283451_br_761
+    MOTIF flyreg.v2.meme_FBgn0283451_br_762
+    MOTIF flyreg.v2.meme_FBgn0283451_br_763
+    MOTIF flyreg.v2.meme_FBgn0011723_byn_710
 
 ## Code and Files Used
 

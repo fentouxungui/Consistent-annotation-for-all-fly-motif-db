@@ -124,7 +124,7 @@ for (i in unique(df$source)) {
 ```{r}
 table(df$source)
 length(unique(df$FBgn))
-sort(table(df$Symbol),decreasing = TRUE)
+head(sort(table(df$Symbol),decreasing = TRUE),30)
 ```
 
 ### Updated meme files with new MOTIF name
